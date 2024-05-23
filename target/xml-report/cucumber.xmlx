@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="34.849" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US0005 Tati günlerinin acilmasi ekrani testi" name="TC01 tatil gunlerine giris testi" time="33.729">
+<system-out><![CDATA[
+Given Siteye "url" adresi ile giris yapilir.................................passed
+And Sirket adi BİMSER ACADEMY secilir.......................................passed
+And Kullanici adi alanina gecerli kullanici "isim" girilir..................passed
+Then Sifre alanina gecerli "sifre" girilir..................................passed
+And Sisteme dahil olmak icin giris butonuna tiklanir........................passed
+And Devam tusuna basilir....................................................passed
+Then Beam Dashboard sayfasinda oldugu test edilir...........................passed
+And Menu alanina tiklanir...................................................passed
+And Sistem alanina tiklanir.................................................passed
+And Ortak tanimlar alanina tiklanir.........................................passed
+And Tatil gunleri alanina tiklanir..........................................passed
+And Tatil gunleri ekraninda oldugun dogrulanir..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
