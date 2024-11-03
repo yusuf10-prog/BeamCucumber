@@ -6,10 +6,8 @@ import java.util.Properties;
 
 public class ConfigReader {
     static Properties properties;
-
     static {
         String dosyaYolu="configurations.properties";
-
         try {
             FileInputStream fis=new FileInputStream(dosyaYolu);
             properties=new Properties();
