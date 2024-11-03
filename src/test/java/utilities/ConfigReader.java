@@ -12,8 +12,6 @@ public class ConfigReader {
             FileInputStream fis=new FileInputStream(dosyaYolu);
             properties=new Properties();
             properties.load(fis);
-
-
         } catch (IOException e) {
             System.out.println("properties dosyasi okunamadı");
         }
