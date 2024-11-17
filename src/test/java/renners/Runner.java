@@ -14,6 +14,5 @@ import org.junit.runner.RunWith;
         tags = "@bimser",
         dryRun = false
 )
-
 public class Runner {
 }
